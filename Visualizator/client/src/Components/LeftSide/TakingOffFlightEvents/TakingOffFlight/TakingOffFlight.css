@@ -1,0 +1,28 @@
+#takingOffFlightWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#takingOffPlaneWrapper {
+  position: absolute;
+  animation: takingOffPlaneAnimation 3s ease-in;
+}
+
+#takingOffFlightTitle {
+  height: 30px;
+  text-align: center;
+}
+
+#tackingOffPlaneImage {
+  height: 100px;
+  width: 100px;
+}
+
+@keyframes takingOffPlaneAnimation {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 370px;
+  }
+}

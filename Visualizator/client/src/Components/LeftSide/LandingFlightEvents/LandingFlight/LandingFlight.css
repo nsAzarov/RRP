@@ -1,0 +1,30 @@
+#landingFlightWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#landingPlaneWrapper {
+  position: absolute;
+  top: 400px;
+  animation: landingPlaneAnimation 3s ease-in;
+}
+
+#landingFlightTitle {
+  height: 30px;
+  text-align: center;
+}
+
+#landingPlaneImage {
+  height: 100px;
+  width: 100px;
+  transform: rotate(180deg);
+}
+
+@keyframes landingPlaneAnimation {
+  from {
+    top: 0;
+  }
+  to {
+    top: 400px;
+  }
+}
